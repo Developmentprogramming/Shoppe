@@ -1,0 +1,239 @@
+.Window {
+    background-color: #333333;
+    color: #b6b6b6;
+}
+
+.Username_label {
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 1px;
+    font-size: 12px;
+    color: #ecf0f1;
+    font-weight: 900;
+}
+
+.Username_entry {
+    background-color: #3d3d3d;
+    font-family: fantasy;  
+    font-size: 13px;
+    color: #ecf0f1;
+    border-color: #3d3d3d;
+    border-radius: 10px;
+    
+}
+
+.Passwd_entry {
+    background-color: #3d3d3d;
+    font-family: fantasy;
+    font-size: 13px;
+    color: #ecf0f1;
+    border-color: #3d3d3d;
+    border-radius: 10px;
+}
+
+.widget_border_error {
+    border-color: #EA2027;
+}
+
+.save_user_toggle_button {
+    background-color: #1a1a1a;
+    border-color: #333333 #333333 #333333 #333333;
+    border-radius: 30px;
+    color: #ecf0f1;
+    transition: all 0.5s;
+}
+
+.save_user_toggle_button_active {
+    background-color: #00a8ff;
+    border-radius: 30px;
+}
+
+.save_user_toggle_button_normal {
+    background-color: #1a1a1a;
+    border-color: #333333 #333333 #333333 #333333;
+    border-radius: 30px;
+    color: #ecf0f1;
+}
+
+.save_user_toggle_button:hover {
+    background-color: #00a8ff;
+    color: white;
+}
+
+.save_user_combo_box_text {
+    background-color: #333333;
+    border-color: #333333 #333333 #333333 #333333;
+    border-radius: 20px;
+    color: #ecf0f1;
+    transition: all 0.8s;
+}
+
+.save_user_combo_box_text button {
+    background-color: #1a1a1a;
+    border-color: #1a1a1a;
+    color: #ecf0f1;
+    border-radius: 10px;
+    transition: all 0.8s;
+    font-family: monospace;
+    font-size: 12px;
+}
+
+.save_user_combo_box_text button:hover {
+    background-color: #ecf0f1;
+    border-color: #ecf0f1;
+    color: black;
+}
+
+.save_user_combo_box_text window {
+    background-color: #333333;
+    border-color: #1a1a1a;
+    color: #ecf0f1;
+    font-family: monospace;
+    border-radius: 20px;
+    font-size: 12px;
+}
+
+.show_button {
+    background-color: #1a1a1a;
+    border-color: #1a1a1a;
+    border-radius: 30px;
+    color: #ecf0f1;
+    transition: all 0.8s;
+}
+
+.show_button:hover {
+    background-color: #f5f6fa;
+    border-color: #f5f6fa;
+}
+
+.show_button_normal {
+    background-color: #1a1a1a;
+    border-color: #1a1a1a;
+    border-radius: 30px;
+    color: #ecf0f1;
+    transition: all 0.8s;
+}
+
+.show_button_active {
+    background-color: #f5f6fa;
+    border-color: #f5f6fa;
+    transition: all 0.8s;
+}
+
+.show_passwd_button {
+    background-color: #1a1a1a;
+    border-color: #1a1a1a;
+    border-radius: 30px;
+    color: #ecf0f1;
+    transition: all 0.8s;
+}
+
+.show_passwd_button:hover {
+    background-color: #f1c40f;
+    border-color: #f1c40f;
+}
+
+.show_passwd_normal {
+    background-color: #1a1a1a;
+    border-color: #1a1a1a;
+    border-radius: 30px;
+    color: #ecf0f1;
+}
+
+.show_passwd_active {
+    background-color: #f1c40f;
+    border-color: #f1c40f;
+}
+
+.delete_user_button {
+    background-color: #1a1a1a;
+    border-color: #1a1a1a;
+    border-radius: 30px;
+    color: #ecf0f1;
+    transition: all 0.8s;
+}
+
+.delete_user_button:hover {
+    background-color: #e74c3c;
+    border-color: #e74c3c;
+    color: #ecf0f1;
+}
+
+.dialog {
+    background-color: #333333;
+    color: #ecf0f1;
+    border-color: #333333;
+}
+
+.dialog button {
+    background-color: #1a1a1a;
+    border-color: #1a1a1a;
+    color: #ecf0f1;
+    border-radius: 30px;
+    transition: all 0.8s;
+}
+
+.dialog button:hover {
+    background-color: #f5f6fa;
+    border-color: #f5f6fa;
+    color: black;
+}
+
+.Passwd_label {
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 1px;
+    font-size: 12px;
+    color: #ecf0f1;
+    font-weight: 900;
+}
+
+.info_bar_error {
+    background-color: #e74c3c;
+    color: white;
+    border-color: #e74c3c;
+    font-family: monospace;
+    font-size: 12px;
+    border-radius: 10px;
+}
+
+.Login_button {
+    background-color: #27ae60;
+    border-color: #27ae60 #27ae60 #27ae60 #27ae60;
+    color: #cccccc;
+    font-family: initial;
+    transition: all 0.5s;
+    border-radius: 30px;
+}
+
+.Login_button:hover {
+    color: white;
+    background-color: #2ecc71;
+    border-color: #2ecc71 #2ecc71 #2ecc71 #2ecc71;
+}
+
+.Exit_button {
+    background-color: #1a1a1a;
+    color: #cccccc;
+    border-color: #1a1a1a #1a1a1a #1a1a1a #1a1a1a;
+    transition: all 0.5s;
+    border-radius: 30px;
+}
+
+.Exit_button:hover {
+    border-color: #222222 #222222 #222222 #222222;
+    background-color: #222222;
+    color: white;
+}
+
+.Create_button {
+    background-color: #2980b9;
+    border-color: #2980b9 #2980b9 #2980b9 #2980b9;
+    color: #cccccc;
+    border-radius: 30px;
+    transition: all 0.5s;
+}
+
+.Create_button:hover {
+    background-color: #3498db;
+    border-color: #3498db #3498db #3498db #3498db;
+    color: white;
+}

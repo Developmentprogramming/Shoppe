@@ -1,0 +1,130 @@
+.Window {
+    background-color: #333333;
+    color: #b6b6b6;
+}
+
+.account_label {
+    transition: all 0.5s;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 10px;
+}
+
+.fullname_label {
+    color: #b6b6b6;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.fullname_entry {
+    color: #3498db;
+    background-color: #3d3d3d;
+    border-color: #3d3d3d;
+    border-radius: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+.username_label {
+    color: #b6b6b6;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.username_entry {
+    background-color: #3d3d3d;
+    border-color: #3d3d3d;
+    color: #b6b6b6;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 13px;
+    border-radius: 10px;
+}
+
+.passwd_label {
+    color: #b6b6b6;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.passwd_entry {
+    background-color: #3d3d3d;
+    border-color: #3d3d3d;
+    color: #b6b6b6;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 13px;
+    border-radius: 10px;
+}
+
+.passwd_show_button {
+    background-color: #1a1a1a;
+    border-color: #1a1a1a;
+    border-radius: 30px;
+    color: white;
+    transition: all 0.8s;
+}
+
+.passwd_show_button:hover {
+    background-color: #f1c40f;
+    border-color: #f1c40f;
+}
+
+.error_border {
+    border-color: #EA2027;
+}
+
+.show_button_normal {
+    background-color: #1a1a1a;
+    border-color: #1a1a1a;
+}
+
+.show_button_active {
+    background-color: #f1c40f;
+    border-color: #f1c40f;
+}
+
+.create_button {
+    background-color: #27ae60;
+    border-color: #27ae60;
+    color: white;
+    transition: all 0.8s
+}
+
+.create_button:hover {
+    background-color: #2ecc71;
+    border-color: #2ecc71;
+}
+
+.cancel_button {
+    transition: all 0.8s
+}
+
+.cancel_button:hover {
+    background-color: #e74c3c;
+    border-color: #e74c3c;
+    color: white;
+}
+
+.info_bar_error {
+    background-color: #e74c3c;
+    border-color: #e74c3c;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 12px;
+    border-radius: 10px;
+}
+
+.info_bar_success {
+    background-color: #2ecc71;
+    border-color: #2ecc71;
+    border-radius: 10px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 12px;
+}

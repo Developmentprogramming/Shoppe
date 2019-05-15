@@ -1,0 +1,641 @@
+.Window {
+    background-color: #333333;
+    color: #b6b6b6;
+}
+
+.shoppe_label {
+    color: #00a1d0;
+    letter-spacing: 20px;
+    font-size: 15px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bolder;
+    transition: all 1s;
+}
+
+.shoppe_label_c1 {
+    color: #f1c40f;
+}
+
+.shoppe_label_c2 {
+    color: #d35400;
+}
+
+.shoppe_label_c3 {
+    color: #485460;
+}
+
+.shoppe_label_c4 {
+    color: #34e7e4;
+}
+
+.shoppe_label_c5 {
+    color: #a55eea;
+}
+
+.shoppe_label_c6 {
+    color: #34495e;
+}
+
+.change_label {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: oblique;
+    font-size: 10px;
+    transition: all 0.5s;
+    font-weight: 500;
+    color: white;
+}
+
+.dialog {
+    background-color: #333333;
+    color: #b6b6b6;
+    border-color: #333333;
+}
+
+.passwd_label {
+    color: #b6b6b6;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 10px;
+}
+
+.dialog button {
+    background-color: #1a1a1a;
+    border-color: #1a1a1a;
+    color: #b6b6b6;
+    border-radius: 30px;
+    transition: all 0.8s;
+}
+
+.dialog button:hover {
+    background-color: white;
+    border-color: white;
+    color: black;
+}
+
+.dialog_entry {
+    background-color: #4a4a4a;
+    border-color: #4a4a4a;
+    border-radius: 10px;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.dialog_create_button {
+    background-color: #1a1a1a;
+    border-color: #1a1a1a;
+    color: white;
+    transition: all 0.8s;
+}
+
+.dialog_create_button:hover {
+    background-color: #2ecc71;
+    border-color: #2ecc71;
+}
+
+.dialog_cancel_button {
+    background-color: #1a1a1a;
+    border-color: #1a1a1a;
+    color: white;
+    transition: all 0.8s;
+}
+
+.dialog_cancel_button:hover {
+    background-color: #e74c3c;
+    border-color: #e74c3c;
+}
+
+.passwd_dialog {
+    background-color: #333333;
+    color: #b6b6b6;
+    border-color: #333333; 
+}
+
+.sdat_dialog {
+    background-color: #333333;
+    color: white;
+    border-color: #333333;
+}
+
+.sdat_dialog button {
+    background-color: #1a1a1a;
+    border-color: #1a1a1a;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    transition: all 0.8s;
+    border-radius: 30px;
+}
+
+.sdat_dialog button:hover {
+    background-color: #26de81;
+    border-color: #26de81;
+}
+
+.dialog_entry_all {
+    background-color: #4a4a4a;
+    border-color: #4a4a4a;
+    border-radius: 10px;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+}
+
+.dialog_label_all {
+    color: #b6b6b6;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12px; 
+}
+
+.dialog_calendar {
+    color: #b6b6b6;
+}
+
+.dialog_calendar.view {
+    background-color: #333333;
+    border-color: #333333;
+    color: white;
+}
+
+.dialog_calendar.button {
+    color: #b6b6b6;
+    transition: all 0.3s;
+}
+
+.dialog_calendar.button:hover {
+    color: #e67e22;
+}
+
+.dialog_calendar.highlight {
+    color: #3498db;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.dialog_calendar.header {
+    border-color: #333333;
+    background-color: #333333;
+    color: #2ecc71;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.dialog_calendar:selected {
+    color: white;
+    font-weight: bolder;
+    background-color: #3d3d3d;
+}
+
+.dialog_calendar:indeterminate {
+    color: #4b4b4b;
+}
+
+.new_passwd_button {
+    background-color: #1a1a1a;
+    border-color: #1a1a1a;
+    border-radius: 10px;
+    transition: all 1s;
+    color: white;
+}
+
+.new_passwd_button:hover {
+    background-color: #3498db;
+    border-color: #3498db;
+    border-radius: 20px;
+    color: white;
+}
+
+.new_passwd_button_active {
+    background-color: #3498db;
+    border-color: #3498db;
+    border-radius: 20px;
+    color: white;
+}
+
+.fullname_label {
+    color: #b6b6b6;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12px;
+}
+
+.fullname_entry {
+    background-color: #4b4b4b;
+    border-color: #4b4b4b;
+    border-radius: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 12px;
+    letter-spacing: 1px;
+    color: #3498db;
+    font-weight: 500;
+}
+
+.edit_button {
+    background-color: #1a1a1a;
+    border-color: #1a1a1a;
+    border-radius: 30px;
+    transition: all 0.8s;
+}
+
+.edit_button:hover {
+    background-color: #1abc9c;
+    border-color: #1abc9c;
+}
+
+.edit_button_active {
+    background-color: #1abc9c;
+    border-color: #1abc9c;
+}
+
+.edit_button_label {
+    color: #1abc9c;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: oblique;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.settings_label {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    font-style: oblique;
+}
+
+.settings_button {
+    background-color: #1a1a1a;
+    border-color: #1a1a1a;
+    border-radius: 30px;
+    transition: all 0.8s;
+}
+
+.settings_button_active {
+    background-color: white;
+    border-color: white;
+    border-radius: 30px;
+}
+
+.user_label {
+    border-radius: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+    color: white;
+    letter-spacing: 5px;
+}
+
+.date_label {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 13px;
+    color: white;
+}
+
+.date_value_label {
+    font-family: monospace;
+    font-size: 15px;
+    transition: all 0.5s;
+}
+
+.time_label {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 13px;
+    color: white;
+}
+
+.time_value_label {
+    font-family: monospace;
+    font-size: 15px;
+    transition: all 0.5s;
+}
+
+.account_label {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+    font-style: unset;
+}
+
+.account_combo_box {
+    background-color: #333333;
+    border-color: #333333;
+    color: white;
+    transition: all 0.5s;
+}
+
+.account_combo_box button {
+    background-color: #1a1a1a;
+    border-color: #1a1a1a;
+    border-radius: 20px;
+    color: white;
+    transition: all 0.5s;
+}
+
+.account_combo_box button:hover {
+    background-color: white;
+    border-color: white;
+    color: black;
+}
+
+.open_button {
+    background-color: #1a1a1a;
+    border-color: #1a1a1a;
+    border-radius: 30px;
+    transition: all 0.3s;
+}
+
+.open_button:hover {
+    background-color: #2ecc71;
+    border-color: #2ecc71;
+}
+
+.open_button:disabled {
+    background-color: #333333;
+    border-color: #333333;
+    border-radius: 30px;
+}
+
+.open_button_label {
+    color: #2ecc71;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: oblique;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.new_button {
+    background-color: #1a1a1a;
+    border-color: #1a1a1a;
+    border-radius: 30px;
+    transition: all 0.3s;
+}
+
+.new_button:hover {
+    background-color: #3498db;
+    border-color: #3498db;
+}
+
+.new_button:disabled {
+    background-color: #333333;
+    border-color: #333333;
+    border-radius: 30px;
+}
+
+.new_button_label {
+    color: #3498db;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: oblique;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.delete_button {
+    background-color: #1a1a1a;
+    border-color: #1a1a1a;
+    border-radius: 30px;
+    transition: all 0.3s;
+}
+
+.delete_button:hover {
+    background-color: #e74c3c;
+    border-color: #e74c3c;
+}
+
+.delete_button:disabled {
+    background-color: #333333;
+    border-color: #333333;
+    border-radius: 30px;
+}
+
+.delete_button_label {
+    color: #e74c3c;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: oblique;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.add_spin_button {
+    background-color: #333333;
+    color: white;
+    border-color: #333333;
+    font-size: 12px;
+}
+
+.add_spin_button:disabled {
+    background-color: #333333;
+    border-color: #333333;
+}
+
+.add_spin_button button.down {
+    background-color: #1a1a1a;
+    border-color: #1a1a1a;
+    color: #1a1a1a;
+    transition: all 0.2s;
+    border-radius: 5px;
+    color: #3d3d3d;
+}
+
+.add_spin_button button.down:disabled {
+    background-color: #333333;
+    border-color: #333333;
+}
+
+.add_spin_button button.down:hover {
+    color: #e67e22;
+}
+
+.add_spin_button entry {
+    background-color: #4b4b4b;
+    border-color: #4b4b4b;
+    border-radius: 5px;
+    color: white;
+    font-family: monospace;
+}
+
+.add_spin_button button.up{
+    background-color: #1a1a1a;
+    border-color: #1a1a1a;
+    color: #1a1a1a;
+    transition: all 0.2s;
+    border-radius: 5px;
+    color: #3d3d3d;
+}
+
+.add_spin_button button.up:hover {
+    color: #3498db;
+}
+
+.add_spin_button button.up:disabled {
+    background-color: #333333;
+    border-color: #333333;
+}
+
+.add_button {
+    background-color: #1a1a1a;
+    border-color: #1a1a1a;
+    border-radius: 30px;
+    transition: all 0.3s;
+}
+
+.add_button:hover {
+    background-color: #9b59b6;
+    border-color: #9b59b6;
+}
+
+.add_button:disabled {
+    background-color: #333333;
+    border-color: #333333;
+    border-radius: 30px;
+}
+
+.add_button_label {
+    color: #9b59b6;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: oblique;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.calculate_button {
+    background-color: #1a1a1a;
+    border-color: #1a1a1a;
+    border-radius: 30px;
+    transition: all 0.3s;
+}
+
+.calculate_button:disabled {
+    background-color: #333333;
+    border-color: #333333;
+    border-radius: 30px;
+}
+
+.calculate_button:hover {
+    background-color: #e67e22;
+    border-color: #e67e22;
+}
+
+.calculate_button_label {
+    color: #e67e22;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: oblique;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.save_button {
+    background-color: #1a1a1a;
+    border-color: #1a1a1a;
+    border-radius: 30px;
+    transition: all 0.3s;
+}
+
+.save_button:disabled {
+    background-color: #333333;
+    border-color: #333333;
+    border-radius: 30px;
+}
+
+.save_button:hover {
+    background-color: #4bcffa;
+    border-color: #4bcffa;
+}
+
+.save_button_label {
+    color: #4bcffa;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: oblique;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.dicdb_labels {
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    font-style: oblique;
+}
+
+.scolled_window scrolledwindow {
+    background-color: #1a1a1a;
+    color: white;
+    border-color: #1a1a1a;
+    border-radius: 10px;
+}
+
+.items_entries {
+    background-color: #4b4b4b;
+    border-color: #4b4b4b;
+    border-radius: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 12px;
+    color: white;
+}
+
+.credit_entries {
+    background-color: #4b4b4b;
+    border-color: #4b4b4b;
+    border-radius: 10px;
+    font-family: monospace;
+    font-size: 12px;
+    color: #2ecc71;
+}
+
+.debit_entries {
+    background-color: #4b4b4b;
+    border-color: #4b4b4b;
+    border-radius: 10px;
+    font-family: monospace;
+    font-size: 12px;
+    color: #e74c3c;
+}
+
+.balance_entries {
+    background-color: #4b4b4b;
+    border-color: #4b4b4b;
+    border-radius: 10px;
+    font-family: monospace;
+    font-size: 12px;
+    color: white;
+}
+
+.entries_dt {
+    color: white;
+    font-family: monospace;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.total_label {
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    font-style: oblique;
+    margin-left: 350px;
+}
+
+.credit_total_entry {
+    background-color: #4b4b4b;
+    border-color: #4b4b4b;
+    border-radius: 10px;
+    font-family: monospace;
+    font-size: 12px;
+    color: white;
+    margin-left: 40px;
+}
+
+.debit_total_entry {
+    background-color: #4b4b4b;
+    border-color: #4b4b4b;
+    border-radius: 10px;
+    font-family: monospace;
+    font-size: 12px;
+    color: white;
+    margin-left: 20px;
+}
+
+.info_bar_error {
+    background-color: #e74c3c;
+    border-color: #e74c3c;
+    color: white;
+    border-radius: 10px;
+    transition: all 0.8s;
+}
